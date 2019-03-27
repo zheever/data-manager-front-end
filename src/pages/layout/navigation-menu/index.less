@@ -1,0 +1,59 @@
+
+@backgroundColor: #333547;
+@menuItemSelectColor: #383b4e;
+@menuTextColor: #8699ad;
+@menuTextSelectColor: #c5d6e6;
+.navigation-menu {
+  width: 240px;
+  height: 100%;
+  background: @backgroundColor;
+  .ant-menu-dark, .ant-menu-dark .ant-menu-sub {
+    background: @backgroundColor;
+  }
+
+  .ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    background-color: @menuItemSelectColor;
+  }
+
+  .ant-menu-dark, .ant-menu-dark .ant-menu-sub {
+    color: @menuTextColor;
+  }
+
+  .ant-menu-dark .ant-menu-item, .ant-menu-dark .ant-menu-item-group-title, .ant-menu-dark .ant-menu-item > a {
+    color: @menuTextColor;
+  }
+
+  .ant-menu-dark .ant-menu-item-selected span, .ant-menu-dark .ant-menu-submenu  {
+    color: @menuTextSelectColor;
+  }
+
+  .ant-menu .ant-menu-item-selected {
+    color: @menuTextSelectColor;
+  }
+
+  .ant-menu .ant-menu-item:hover {
+    color: @menuTextSelectColor;
+  }
+
+  .ant-menu .ant-menu-item {
+    height: 55px;
+    line-height: 55px;
+  }
+
+  .ant-menu-root .ant-menu-item {
+    font-size: 16px;
+  }
+
+  .ant-menu-sub .ant-menu-item {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 37px;
+    line-height: 21px;
+    font-size: 14px;
+  }
+
+  .ant-menu-submenu .ant-menu-submenu-title {
+    height: 55px;
+    line-height: 55px;
+  }
+}

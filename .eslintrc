@@ -1,0 +1,51 @@
+{
+  "extends": ["react-app", "plugin:prettier/recommended", "prettier/react"],
+  "globals": {
+    "window": true,
+    "define": true,
+    "__DEV__": true,
+    "__PROD__": true,
+    "__TEST_ENV__": true,
+    "__MASTER_ENV__": true,
+    "parent": true,
+    "DEPLOY_ENV": true
+  },
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "ecmaVersion": true,
+      "jsx": true,
+      "legacyDecorators": true
+    },
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-restricted-globals": [
+        "error",
+        {
+            "name": "parent",
+            "message": "Use local parameter instead."
+        },
+    ],
+    "no-unused-vars": "off",
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "quotes": ["error", "single"],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ],
+    "semi": ["error", "always"]
+  }
+}
