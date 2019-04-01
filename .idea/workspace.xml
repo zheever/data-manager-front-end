@@ -7,30 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec4656c4-916d-4bc8-82e0-571e513a952d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/file-list/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/table-list/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/api/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/api/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/jsonp-util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/query-string-util.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/add-data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/add-data/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/add-data/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/add-data/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/delete-data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/delete-data/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/delete-data/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/delete-data/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/layout/navigation-menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/layout/navigation-menu/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/main/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/main/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/main/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/table/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/table/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/table/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/table/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/errorHandler/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/errorHandler/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3679189">
+    <splitter split-orientation="horizontal" split-proportion="0.8980322">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -54,15 +31,6 @@
                     <element signature="e#0#41#0" expanded="true" />
                     <element signature="e#1352#1421#0" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/services/api/utils.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="382">
-                  <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -139,14 +107,26 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pages/delete-data/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="946">
-                  <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+                <state relative-caret-position="308">
+                  <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="396">
+                    <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -309,7 +289,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/file-reader/index.js" />
         <option value="$PROJECT_DIR$/src/errorHandler/index.js" />
         <option value="$PROJECT_DIR$/src/file-reader/index.ts" />
         <option value="$PROJECT_DIR$/src/pages/layout/navigation/index.js" />
@@ -360,6 +339,7 @@
         <option value="$PROJECT_DIR$/src/pages/app/index.js" />
         <option value="$PROJECT_DIR$/src/pages/layout/navigation-menu/index.js" />
         <option value="$PROJECT_DIR$/src/pages/file-list/index.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -402,7 +382,20 @@
               <item name="data-manager-front-end" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-manager-front-end" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-manager-front-end" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-manager-front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-manager-front-end" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-manager-front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="delete-data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data-manager-front-end" type="b2602c69:ProjectViewProjectNode" />
@@ -417,13 +410,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="table" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-manager-front-end" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-manager-front-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="table-list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data-manager-front-end" type="b2602c69:ProjectViewProjectNode" />
@@ -534,7 +520,7 @@
       <workItem from="1553454788614" duration="47548000" />
       <workItem from="1553654896706" duration="20226000" />
       <workItem from="1553680735635" duration="599000" />
-      <workItem from="1553696233465" duration="28291000" />
+      <workItem from="1553696233465" duration="30483000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目和完成部分功能">
       <created>1553696678124</created>
@@ -543,11 +529,27 @@
       <option name="project" value="LOCAL" />
       <updated>1553696678124</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始化项目和完成部分功能">
+      <created>1554088715271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554088715271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137925000" />
+    <option name="totallyTimeSpent" value="140117000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -563,12 +565,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32962137" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32962137" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32962137" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49947312" visible="true" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -586,14 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -954,16 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/delete-data/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/table/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -981,6 +965,26 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/delete-data/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="396">
+            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
