@@ -13,7 +13,13 @@ class DataTable extends Component {
 
   renderTable = () => {
     const { tableTitleData, tableContentData } = this.getTableData();
-    return <Table columns={tableTitleData} dataSource={tableContentData} />;
+    return (
+      <Table
+        className={'dm-table'}
+        columns={tableTitleData}
+        dataSource={tableContentData}
+      />
+    );
   };
 
   render() {

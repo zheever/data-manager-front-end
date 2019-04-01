@@ -54,7 +54,7 @@ class NavigationMenu extends Component {
           </Menu.Item>
           <Menu.Item key="3">
             <Icon type="inbox" />
-            <span>图表</span>
+            <span>统计分析</span>
           </Menu.Item>
           <SubMenu
             key="sub1"
@@ -86,19 +86,25 @@ class NavigationMenu extends Component {
           </SubMenu>
           <SubMenu
             key="sub2"
+            onClick={() => {
+              this.jumpTo('/table-list');
+            }}
             title={
               <span>
                 <Icon type="appstore" />
-                <span>Navigation Two</span>
+                <span>历史</span>
               </span>
             }
           >
-            ><Menu.Item key="9">Option 9</Menu.Item>
-            <Menu.Item key="10">Option 10</Menu.Item>
-            <SubMenu key="sub3" title="Submenu">
-              <Menu.Item key="11">Option 11</Menu.Item>
-              <Menu.Item key="12">Option 12</Menu.Item>
-            </SubMenu>
+            <Menu.Item key="9">历史数据</Menu.Item>
+            <Menu.Item
+              onClick={() => {
+                this.jumpTo('/file-list');
+              }}
+              key="10"
+            >
+              历史文件
+            </Menu.Item>
           </SubMenu>
         </Menu>
       </div>

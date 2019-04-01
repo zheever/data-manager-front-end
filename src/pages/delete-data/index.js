@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Table } from 'antd';
 import './index.less';
 import { inject, observer } from 'mobx-react';
+import ErrorHandler from '../../utils/errorHandler';
 
 @inject('tableDataModel')
 @observer
@@ -9,6 +10,10 @@ class deleteTable extends Component {
   deleteData = (text, record) => {
     this.props.tableDataModel.deleteTableData(record.id);
   };
+
+  componentDidMount() {
+    ErrorHandler.throwError('aaaa');
+  }
 
   getTableData = () => {
     let tableTitleData = this.props.tableDataModel.getTableTitleData();
@@ -36,7 +41,13 @@ class deleteTable extends Component {
 
   renderTable = () => {
     const { tableTitleData, tableContentData } = this.getTableData();
-    return <Table columns={tableTitleData} dataSource={tableContentData} />;
+    return (
+      <Table
+        className={'delete-data-table'}
+        columns={tableTitleData}
+        dataSource={tableContentData}
+      />
+    );
   };
 
   render() {

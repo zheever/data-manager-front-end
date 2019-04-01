@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { Upload, Button, Icon } from 'antd';
+import { Upload } from 'antd';
 import Message from '../../utils/message/index.js';
 import FileProcessor from '../../file-processor/index.ts';
 import Card from '../../components/card/index.js';
 import models from '../../models/index';
 import './index.less';
 import { withRouter } from 'react-router';
+import DMService from '../../services';
 
 const { tableDataModel } = models;
 @withRouter
@@ -25,6 +26,8 @@ export default class Main extends Component {
         const tableContentData = FileProcessor.getTableContentData(dataSource);
         tableDataModel.setTableTitleData(tableTitleData);
         tableDataModel.setTableContentData(tableContentData);
+        debugger;
+        DMService.uploadTable(tableTitleData, tableContentData, info.file.name);
         setTimeout(() => {
           this.props.history.push('/table');
         }, 500);
@@ -41,7 +44,7 @@ export default class Main extends Component {
   getUploadProps() {
     return {
       name: 'file',
-      action: '//jsonplaceholder.typicode.com/posts/',
+      action: '//10.11.132.228:8888/upload-file',
       headers: {
         authorization: 'authorization-text'
       },
